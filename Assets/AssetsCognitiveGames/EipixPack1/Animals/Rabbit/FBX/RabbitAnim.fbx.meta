@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 2ddad2f279a52564286ea2f7f6cc29b0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: RABBIT_
+    100002: RABBIT__Footsteps
+    100004: RABBIT__Head
+    100006: RABBIT__L_Calf
+    100008: RABBIT__L_Clavicle
+    100010: RABBIT__L_Foot
+    100012: RABBIT__L_Forearm
+    100014: RABBIT__L_Hand
+    100016: RABBIT__L_Thigh
+    100018: RABBIT__L_Toe0
+    100020: RABBIT__L_UpperArm
+    100022: RABBIT__Neck
+    100024: RABBIT__Neck1
+    100026: RABBIT__Pelvis
+    100028: RABBIT__Queue_de_cheval_1
+    100030: RABBIT__Queue_de_cheval_2
+    100032: RABBIT__R_Calf
+    100034: RABBIT__R_Clavicle
+    100036: RABBIT__R_Foot
+    100038: RABBIT__R_Forearm
+    100040: RABBIT__R_Hand
+    100042: RABBIT__R_Thigh
+    100044: RABBIT__R_Toe0
+    100046: RABBIT__R_UpperArm
+    100048: RABBIT__Spine
+    100050: RABBIT__Spine1
+    100052: //RootNode
+    100054: root
+    100056: SK_Rabbit_LOD0
+    100058: SK_Rabbit_LOD1
+    100060: SK_Rabbit_LOD2
+    100062: SK_Rabbit_LOD3
+    400000: RABBIT_
+    400002: RABBIT__Footsteps
+    400004: RABBIT__Head
+    400006: RABBIT__L_Calf
+    400008: RABBIT__L_Clavicle
+    400010: RABBIT__L_Foot
+    400012: RABBIT__L_Forearm
+    400014: RABBIT__L_Hand
+    400016: RABBIT__L_Thigh
+    400018: RABBIT__L_Toe0
+    400020: RABBIT__L_UpperArm
+    400022: RABBIT__Neck
+    400024: RABBIT__Neck1
+    400026: RABBIT__Pelvis
+    400028: RABBIT__Queue_de_cheval_1
+    400030: RABBIT__Queue_de_cheval_2
+    400032: RABBIT__R_Calf
+    400034: RABBIT__R_Clavicle
+    400036: RABBIT__R_Foot
+    400038: RABBIT__R_Forearm
+    400040: RABBIT__R_Hand
+    400042: RABBIT__R_Thigh
+    400044: RABBIT__R_Toe0
+    400046: RABBIT__R_UpperArm
+    400048: RABBIT__Spine
+    400050: RABBIT__Spine1
+    400052: //RootNode
+    400054: root
+    400056: SK_Rabbit_LOD0
+    400058: SK_Rabbit_LOD1
+    400060: SK_Rabbit_LOD2
+    400062: SK_Rabbit_LOD3
+    2100000: M_Rabbit
+    2100002: M_RabbitFur
+    4300000: SK_Rabbit_LOD0
+    4300002: SK_Rabbit_LOD1
+    4300004: SK_Rabbit_LOD2
+    4300006: SK_Rabbit_LOD3
+    7400000: IdleFeeding
+    7400002: FeedStart
+    7400004: Feeding
+    7400006: FeedEnd
+    9500000: //RootNode
+    13700000: SK_Rabbit_LOD0
+    13700002: SK_Rabbit_LOD1
+    13700004: SK_Rabbit_LOD2
+    13700006: SK_Rabbit_LOD3
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rabbit
+    second: {fileID: 2100000, guid: 8394e574c7846334ab07b8c5c487091b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RabbitFur
+    second: {fileID: 2100000, guid: 930ac53832c41e24f86a653625d7601a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdleFeeding
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FeedStart
+      takeName: CINEMA_4D_Main
+      firstFrame: 101
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Feeding
+      takeName: CINEMA_4D_Main
+      firstFrame: 121
+      lastFrame: 236
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FeedEnd
+      takeName: CINEMA_4D_Main
+      firstFrame: 237
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
