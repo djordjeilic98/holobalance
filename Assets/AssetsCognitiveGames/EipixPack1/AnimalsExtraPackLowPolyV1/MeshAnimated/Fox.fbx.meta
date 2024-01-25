@@ -1,0 +1,1065 @@
+fileFormatVersion: 2
+guid: ba7aaec4fbc3e454cabedc25df5123f6
+timeCreated: 1478408053
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Body2
+    100004: BodyCenter
+    100006: Ear1
+    100008: Ear1_end
+    100010: Ear2
+    100012: Ear2_end
+    100014: //RootNode
+    100016: Fox
+    100018: FoxLOD
+    100020: Head
+    100022: LegLeft1
+    100024: LegLeft2
+    100026: LegLeft3
+    100028: LegLeftRear1
+    100030: LegLeftRear2
+    100032: LegLeftRear3
+    100034: LegRight1
+    100036: LegRight2
+    100038: LegRight3
+    100040: LegRightRear1
+    100042: LegRightRear2
+    100044: LegRightRear3
+    100046: mouth1
+    100048: mouth1_end
+    100050: mouth2
+    100052: mouth2_end
+    100054: Neck
+    100056: PawLeft
+    100058: PawLeft_end
+    100060: PawRearLeft
+    100062: PawRearLeft_end
+    100064: PawRearRight
+    100066: PawRearRight_end
+    100068: PawRight
+    100070: PawRight_end
+    100072: PinTail
+    100074: ScheletonFox
+    100076: Tail1
+    100078: Tail2
+    100080: Tail3
+    100082: Tail3_end
+    400000: Body1
+    400002: Body2
+    400004: BodyCenter
+    400006: Ear1
+    400008: Ear1_end
+    400010: Ear2
+    400012: Ear2_end
+    400014: //RootNode
+    400016: Fox
+    400018: FoxLOD
+    400020: Head
+    400022: LegLeft1
+    400024: LegLeft2
+    400026: LegLeft3
+    400028: LegLeftRear1
+    400030: LegLeftRear2
+    400032: LegLeftRear3
+    400034: LegRight1
+    400036: LegRight2
+    400038: LegRight3
+    400040: LegRightRear1
+    400042: LegRightRear2
+    400044: LegRightRear3
+    400046: mouth1
+    400048: mouth1_end
+    400050: mouth2
+    400052: mouth2_end
+    400054: Neck
+    400056: PawLeft
+    400058: PawLeft_end
+    400060: PawRearLeft
+    400062: PawRearLeft_end
+    400064: PawRearRight
+    400066: PawRearRight_end
+    400068: PawRight
+    400070: PawRight_end
+    400072: PinTail
+    400074: ScheletonFox
+    400076: Tail1
+    400078: Tail2
+    400080: Tail3
+    400082: Tail3_end
+    4300000: FoxLOD
+    4300002: Fox
+    7400000: aggressive
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: idle
+    7400010: run
+    7400012: SittingIdle
+    7400014: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Fox
+    13700002: FoxLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: aggressive
+      takeName: ScheletonFox|aggressive
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: ScheletonFox|death
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: ScheletonFox|eat
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: ScheletonFox|hurt
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: ScheletonFox|idle
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: ScheletonFox|run
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SittingIdle
+      takeName: ScheletonFox|SittingIdle
+      firstFrame: 0
+      lastFrame: 380
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: ScheletonFox|walk
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fox
+        weight: 1
+      - path: FoxLOD
+        weight: 1
+      - path: ScheletonFox
+        weight: 1
+      - path: ScheletonFox/BodyCenter
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear1/Ear1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/Ear2/Ear2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth1/mouth1_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/Body2/Neck/Head/mouth2/mouth2_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegLeft1/LegLeft2/LegLeft3/PawLeft/PawLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/Body1/LegRight1/LegRight2/LegRight3/PawRight/PawRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegLeftRear1/LegLeftRear2/LegLeftRear3/PawRearLeft/PawRearLeft_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight
+        weight: 1
+      - path: ScheletonFox/BodyCenter/LegRightRear1/LegRightRear2/LegRightRear3/PawRearRight/PawRearRight_end
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: ScheletonFox/BodyCenter/PinTail/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

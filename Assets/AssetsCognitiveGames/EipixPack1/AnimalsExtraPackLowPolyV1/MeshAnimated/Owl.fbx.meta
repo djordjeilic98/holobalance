@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: ad1d7673ec876444f8c182a16bbcaeee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: footLeft
+    100004: footRight
+    100006: Head
+    100008: Head_end
+    100010: OWL
+    100012: //RootNode
+    100014: OWLLOD
+    100016: OwlSkeleton
+    100018: PawLeft1
+    100020: PawLeft2
+    100022: PawLeft2_end
+    100024: PawLeft3
+    100026: PawLeft5
+    100028: PawLeft5_end
+    100030: PawRight1
+    100032: PawRight2
+    100034: PawRight2_end
+    100036: PawRight3
+    100038: PawRight5
+    100040: PawRight5_end
+    100042: Tail
+    100044: Tail_end
+    400000: Body
+    400002: footLeft
+    400004: footRight
+    400006: Head
+    400008: Head_end
+    400010: OWL
+    400012: //RootNode
+    400014: OWLLOD
+    400016: OwlSkeleton
+    400018: PawLeft1
+    400020: PawLeft2
+    400022: PawLeft2_end
+    400024: PawLeft3
+    400026: PawLeft5
+    400028: PawLeft5_end
+    400030: PawRight1
+    400032: PawRight2
+    400034: PawRight2_end
+    400036: PawRight3
+    400038: PawRight5
+    400040: PawRight5_end
+    400042: Tail
+    400044: Tail_end
+    4300000: OWLLOD
+    4300002: OWL
+    7400000: death
+    7400002: death branch
+    7400004: hurt
+    7400006: hurt branch
+    7400008: idle
+    7400010: idle branch
+    7400012: OwlSkeleton|Pose
+    7400014: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: OWL
+    13700002: OWLLOD
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OWLMaterial
+    second: {fileID: 2100000, guid: 96bfafa85d593094896c89dcaf83d34d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: OwlSkeleton|death
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death branch
+      takeName: OwlSkeleton|death branch
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: OwlSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt branch
+      takeName: OwlSkeleton|hurt branch
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: OwlSkeleton|idle
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle branch
+      takeName: OwlSkeleton|idle branch
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: OwlSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OWL
+        weight: 1
+      - path: OWLLOD
+        weight: 1
+      - path: OwlSkeleton
+        weight: 1
+      - path: OwlSkeleton/Body
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5
+        weight: 1
+      - path: OwlSkeleton/Body/footLeft/PawLeft3/PawLeft5/PawLeft5_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5
+        weight: 1
+      - path: OwlSkeleton/Body/footRight/PawRight3/PawRight5/PawRight5_end
+        weight: 1
+      - path: OwlSkeleton/Body/Head
+        weight: 1
+      - path: OwlSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: OwlSkeleton/Body/Tail
+        weight: 1
+      - path: OwlSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

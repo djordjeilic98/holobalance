@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: daf22e9565e7372439290589af9cf98a
+timeCreated: 1478407508
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Cat
+    100006: CatLOD
+    100008: CatSkeleton
+    100010: EarLeft
+    100012: EarLeft_end
+    100014: EarRight
+    100016: EarRight_end
+    100018: Head
+    100020: LeftLeg1
+    100022: LeftLeg2
+    100024: LeftPaw1
+    100026: LeftPaw1_end
+    100028: Mouth
+    100030: Mouth_end
+    100032: Neck
+    100034: PosteriorLeftLeg1
+    100036: PosteriorLeftLeg2
+    100038: PosteriorLeftPaw2
+    100040: PosteriorLeftPaw2_end
+    100042: PosteriorRight Leg2
+    100044: PosteriorRightLeg1
+    100046: PosteriorRightPaw2
+    100048: PosteriorRightPaw2_end
+    100050: Right Leg1
+    100052: Right Leg2
+    100054: RightPaw1
+    100056: RightPaw1_end
+    100058: Tail1
+    100060: Tail2
+    100062: Tail3
+    100064: Tail3_end
+    400000: Body
+    400002: //RootNode
+    400004: Cat
+    400006: CatLOD
+    400008: CatSkeleton
+    400010: EarLeft
+    400012: EarLeft_end
+    400014: EarRight
+    400016: EarRight_end
+    400018: Head
+    400020: LeftLeg1
+    400022: LeftLeg2
+    400024: LeftPaw1
+    400026: LeftPaw1_end
+    400028: Mouth
+    400030: Mouth_end
+    400032: Neck
+    400034: PosteriorLeftLeg1
+    400036: PosteriorLeftLeg2
+    400038: PosteriorLeftPaw2
+    400040: PosteriorLeftPaw2_end
+    400042: PosteriorRight Leg2
+    400044: PosteriorRightLeg1
+    400046: PosteriorRightPaw2
+    400048: PosteriorRightPaw2_end
+    400050: Right Leg1
+    400052: Right Leg2
+    400054: RightPaw1
+    400056: RightPaw1_end
+    400058: Tail1
+    400060: Tail2
+    400062: Tail3
+    400064: Tail3_end
+    4300000: CatLOD
+    4300002: Cat
+    7400000: aggressive
+    7400002: attack
+    7400004: death
+    7400006: eat
+    7400008: hurt
+    7400010: idle
+    7400012: idle2
+    7400014: run
+    7400016: walk
+    7400018: CatSkeleton|aggressive
+    7400020: CatSkeleton|attack
+    7400022: CatSkeleton|death
+    7400024: CatSkeleton|eat
+    7400026: CatSkeleton|hurt
+    7400028: CatSkeleton|idle
+    7400030: CatSkeleton|run
+    7400032: CatSkeleton|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cat
+    13700002: CatLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: aggressive
+      takeName: aggressive
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: attack
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: eat
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: hurt
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 148
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: CatLOD
+        weight: 1
+      - path: CatSkeleton
+        weight: 1
+      - path: CatSkeleton/Body
+        weight: 1
+      - path: CatSkeleton/Body/Neck
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarLeft/EarLeft_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/EarRight/EarRight_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Head/Mouth/Mouth_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1
+        weight: 1
+      - path: CatSkeleton/Body/Neck/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
+        weight: 1
+      - path: CatSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
+        weight: 1
+      - path: CatSkeleton/Body/Tail1
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3
+        weight: 1
+      - path: CatSkeleton/Body/Tail1/Tail2/Tail3/Tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

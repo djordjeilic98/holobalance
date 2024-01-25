@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 340a446e25488424889f06d32183ec13
+timeCreated: 1478407736
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Beak
+    100002: Beak_end
+    100004: Body
+    100006: //RootNode
+    100008: Duck
+    100010: DuckLOD
+    100012: DuckSkeleton
+    100014: FootLeft2
+    100016: FootLeft2_end
+    100018: FootRight
+    100020: FootRight_end
+    100022: Head
+    100024: Neck1
+    100026: Neck2
+    100028: PawLeft
+    100030: PawLeft2
+    100032: PawRight1
+    100034: PawRight2
+    100036: Tail
+    100038: Tail_end
+    400000: Beak
+    400002: Beak_end
+    400004: Body
+    400006: //RootNode
+    400008: Duck
+    400010: DuckLOD
+    400012: DuckSkeleton
+    400014: FootLeft2
+    400016: FootLeft2_end
+    400018: FootRight
+    400020: FootRight_end
+    400022: Head
+    400024: Neck1
+    400026: Neck2
+    400028: PawLeft
+    400030: PawLeft2
+    400032: PawRight1
+    400034: PawRight2
+    400036: Tail
+    400038: Tail_end
+    4300000: DuckLOD
+    4300002: Duck
+    7400000: death
+    7400002: eat
+    7400004: hurt
+    7400006: idle
+    7400008: DuckSkeleton|Pose
+    7400010: run
+    7400012: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Duck
+    13700002: DuckLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: DuckSkeleton|death
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: DuckSkeleton|eat
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: DuckSkeleton|hurt
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: DuckSkeleton|idle
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: DuckSkeleton|run
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: DuckSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Duck
+        weight: 1
+      - path: DuckLOD
+        weight: 1
+      - path: DuckSkeleton
+        weight: 1
+      - path: DuckSkeleton/Body
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak
+        weight: 1
+      - path: DuckSkeleton/Body/Neck1/Neck2/Head/Beak/Beak_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2
+        weight: 1
+      - path: DuckSkeleton/Body/PawLeft/PawLeft2/FootLeft2/FootLeft2_end
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight
+        weight: 1
+      - path: DuckSkeleton/Body/PawRight1/PawRight2/FootRight/FootRight_end
+        weight: 1
+      - path: DuckSkeleton/Body/Tail
+        weight: 1
+      - path: DuckSkeleton/Body/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

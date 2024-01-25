@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: d30b39b2044cc9a48adf8b8d79fe31fb
+timeCreated: 1478408414
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body1
+    100002: body2
+    100004: footLeft1
+    100006: footLeft2
+    100008: footRight1
+    100010: footRight2
+    100012: head
+    100014: head_end
+    100016: PawLeft1
+    100018: PawLeft1_end
+    100020: PawLeft2
+    100022: PawLeft2_end
+    100024: PawRight1
+    100026: PawRight1_end
+    100028: PawRight2
+    100030: PawRight2_end
+    100032: //RootNode
+    100034: Rat
+    100036: RatLOD
+    100038: RatSkeleton
+    100040: tail1
+    100042: tail2
+    100044: tail3
+    100046: tail4
+    100048: tail4_end
+    400000: body1
+    400002: body2
+    400004: footLeft1
+    400006: footLeft2
+    400008: footRight1
+    400010: footRight2
+    400012: head
+    400014: head_end
+    400016: PawLeft1
+    400018: PawLeft1_end
+    400020: PawLeft2
+    400022: PawLeft2_end
+    400024: PawRight1
+    400026: PawRight1_end
+    400028: PawRight2
+    400030: PawRight2_end
+    400032: //RootNode
+    400034: Rat
+    400036: RatLOD
+    400038: RatSkeleton
+    400040: tail1
+    400042: tail2
+    400044: tail3
+    400046: tail4
+    400048: tail4_end
+    4300000: RatLOD
+    4300002: Rat
+    7400000: death
+    7400002: eat
+    7400004: idle
+    7400006: walk
+    7400008: RatSkeleton|walk.001
+    7400010: RatLOD|walk.001
+    7400012: Rat|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Rat
+    13700002: RatLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: RatSkeleton|death
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatLOD
+        weight: 1
+      - path: RatSkeleton
+        weight: 1
+      - path: RatSkeleton/body2
+        weight: 1
+      - path: RatSkeleton/body2/body1
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2/PawRight2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/head
+        weight: 1
+      - path: RatSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: RatSkeleton/body2/footRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: RatSkeleton/body2/tail1
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: RatSkeleton|eat
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatLOD
+        weight: 1
+      - path: RatSkeleton
+        weight: 1
+      - path: RatSkeleton/body2
+        weight: 1
+      - path: RatSkeleton/body2/body1
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2/PawRight2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/head
+        weight: 1
+      - path: RatSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: RatSkeleton/body2/footRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: RatSkeleton/body2/tail1
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: RatSkeleton|idle
+      firstFrame: 0
+      lastFrame: 187
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatLOD
+        weight: 1
+      - path: RatSkeleton
+        weight: 1
+      - path: RatSkeleton/body2
+        weight: 1
+      - path: RatSkeleton/body2/body1
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2/PawRight2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/head
+        weight: 1
+      - path: RatSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: RatSkeleton/body2/footRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: RatSkeleton/body2/tail1
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: RatSkeleton|walk
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatLOD
+        weight: 1
+      - path: RatSkeleton
+        weight: 1
+      - path: RatSkeleton/body2
+        weight: 1
+      - path: RatSkeleton/body2/body1
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footLeft2/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2
+        weight: 1
+      - path: RatSkeleton/body2/body1/footRight2/PawRight2/PawRight2_end
+        weight: 1
+      - path: RatSkeleton/body2/body1/head
+        weight: 1
+      - path: RatSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: RatSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: RatSkeleton/body2/footRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: RatSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: RatSkeleton/body2/tail1
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: RatSkeleton/body2/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 264b3058334cd9c4cb5a4d4f744c814a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: acorn
+    100002: body1
+    100004: body2
+    100006: footLeft1
+    100008: footLeft2
+    100010: footLeft3
+    100012: footRight1
+    100014: footRight2
+    100016: footRight3
+    100018: head
+    100020: head_end
+    100022: PawLeft1
+    100024: PawLeft1_end
+    100026: pawLeft2
+    100028: pawLeft2_end
+    100030: PawRight1
+    100032: PawRight1_end
+    100034: pawRight2
+    100036: pawRight2_end
+    100038: Squirrel
+    100040: //RootNode
+    100042: SquirrelLOD
+    100044: SquirrelSkeleton
+    100046: tail1
+    100048: tail2
+    100050: tail3
+    100052: tail4
+    100054: tail4.001
+    100056: tail4.001_end
+    400000: acorn
+    400002: body1
+    400004: body2
+    400006: footLeft1
+    400008: footLeft2
+    400010: footLeft3
+    400012: footRight1
+    400014: footRight2
+    400016: footRight3
+    400018: head
+    400020: head_end
+    400022: PawLeft1
+    400024: PawLeft1_end
+    400026: pawLeft2
+    400028: pawLeft2_end
+    400030: PawRight1
+    400032: PawRight1_end
+    400034: pawRight2
+    400036: pawRight2_end
+    400038: Squirrel
+    400040: //RootNode
+    400042: SquirrelLOD
+    400044: SquirrelSkeleton
+    400046: tail1
+    400048: tail2
+    400050: tail3
+    400052: tail4
+    400054: tail4.001
+    400056: tail4.001_end
+    2300000: acorn
+    3300000: acorn
+    4300000: acorn
+    4300002: SquirrelLOD
+    4300004: Squirrel
+    7400000: death
+    7400002: eat
+    7400004: hurt
+    7400006: idle
+    7400008: walk
+    7400010: SquirrelSkeleton|idle
+    7400012: SquirrelSkeleton|walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Squirrel
+    13700002: SquirrelLOD
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SquirrelMateriale
+    second: {fileID: 2100000, guid: 96bfafa85d593094896c89dcaf83d34d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: SquirrelLOD
+        weight: 1
+      - path: SquirrelSkeleton
+        weight: 1
+      - path: SquirrelSkeleton/body2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2/pawLeft2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/acorn
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/pawRight2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001/tail4.001_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: eat
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: SquirrelLOD
+        weight: 1
+      - path: SquirrelSkeleton
+        weight: 1
+      - path: SquirrelSkeleton/body2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2/pawLeft2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/acorn
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/pawRight2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001/tail4.001_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: hurt
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: SquirrelLOD
+        weight: 1
+      - path: SquirrelSkeleton
+        weight: 1
+      - path: SquirrelSkeleton/body2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2/pawLeft2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/acorn
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/pawRight2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001/tail4.001_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 221
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: SquirrelLOD
+        weight: 1
+      - path: SquirrelSkeleton
+        weight: 1
+      - path: SquirrelSkeleton/body2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2/pawLeft2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/acorn
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/pawRight2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001/tail4.001_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Squirrel
+        weight: 1
+      - path: SquirrelLOD
+        weight: 1
+      - path: SquirrelSkeleton
+        weight: 1
+      - path: SquirrelSkeleton/body2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footLeft2/footLeft3/pawLeft2/pawLeft2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/acorn
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/footRight2/footRight3/pawRight2/pawRight2_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head
+        weight: 1
+      - path: SquirrelSkeleton/body2/body1/head/head_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footLeft1/PawLeft1/PawLeft1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1
+        weight: 1
+      - path: SquirrelSkeleton/body2/footRight1/PawRight1/PawRight1_end
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001
+        weight: 1
+      - path: SquirrelSkeleton/body2/tail1/tail2/tail3/tail4/tail4.001/tail4.001_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
