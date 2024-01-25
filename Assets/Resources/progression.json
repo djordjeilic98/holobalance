@@ -1,0 +1,144 @@
+{
+	"memory_game": [
+		{
+			"numCards": 3,
+			"viewDuration": 6
+		},
+		{
+			"numCards": 4,
+			"viewDuration": 8
+		},
+		{
+			"numCards": 5,
+			"viewDuration": 10
+		},
+		{
+			"numCards": 6,
+			"viewDuration": 12
+		},
+		{
+			"numCards": 7,
+			"viewDuration": 14
+		}
+	],
+	"catching_game": [
+		{
+			"timeBetweenSpawn": 2.5,
+			"objectsToSpawn": 20,
+			"fallingSpeed": 0,
+			"maxDistanceBetweenAplles": 1
+		},
+		{
+			"timeBetweenSpawn": 2.2,
+			"objectsToSpawn": 20,
+			"fallingSpeed": 0,
+			"maxDistanceBetweenAplles": 2
+		},
+		{
+			"timeBetweenSpawn": 1.9,
+			"objectsToSpawn": 20,
+			"fallingSpeed": 0,
+			"maxDistanceBetweenAplles": 2
+		},
+		{
+			"timeBetweenSpawn": 1.6,
+			"objectsToSpawn": 20,
+			"fallingSpeed": 0,
+			"maxDistanceBetweenAplles": 3
+		},
+		{
+			"timeBetweenSpawn": 1.3,
+			"objectsToSpawn": 20,
+			"fallingSpeed": 0,
+			"maxDistanceBetweenAplles": 4
+		}
+	],
+	"remember_previous": [
+		{
+			"objectsToSpawn": 10,
+			"numDifferentAnimals" : 2,
+			"numRememberingBack": 1
+		},
+		{
+			"objectsToSpawn": 10,
+			"numDifferentAnimals" : 3,
+			"numRememberingBack": 1
+		},
+		{
+			"objectsToSpawn": 10,
+			"numDifferentAnimals" : 4,
+			"numRememberingBack": 2
+		},
+		{
+			"objectsToSpawn": 10,
+			"numDifferentAnimals" : 3,
+			"numRememberingBack": 2
+		},
+		{
+			"objectsToSpawn": 10,
+			"numDifferentAnimals" : 3,
+			"numRememberingBack": 3
+		}
+	],
+	"animal_feeding": [
+		{
+			"numAnimals" : 4
+		},
+		{
+			"numAnimals" : 5
+		},
+		{
+			"numAnimals" : 6
+		},
+		{
+			"numAnimals" : 7
+		},
+		{
+			"numAnimals" : 8
+		}
+	],
+	"preparing_food": [
+		{
+			"numDifferentFood" : 2,
+			"totalRounds": 10
+		},
+		{
+			"numDifferentFood" : 3,
+			"totalRounds": 10
+		},
+		{
+			"numDifferentFood" : 5,
+			"totalRounds": 10
+		},
+		{
+			"numDifferentFood" : 6,
+			"totalRounds": 10
+		},
+		{
+			"numDifferentFood" : 7,
+			"totalRounds": 10
+		}
+	],
+	"marble_game": [
+		{
+			"spawnInterval" : 15,
+			"objectsToSpawn": 3
+		},
+		{
+			"spawnInterval" : 13.5,
+			"objectsToSpawn": 10
+		},
+		{
+			"spawnInterval" : 10,
+			"objectsToSpawn": 10
+		},
+		{
+			"spawnInterval" : 10,
+			"objectsToSpawn": 10
+		},
+		{
+			"spawnInterval" : 10,
+			"objectsToSpawn": 10
+		}
+	]
+}
